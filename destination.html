@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destination Guide</title>
+    <link rel="stylesheet" href="style.css" />
+    <img
+      src="images/dream-weekend.png"
+      alt="Dream Weekend logo"
+      height="150"
+      width="150"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Dream Weekend</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="why.html"
+                >What is Dream Weekend?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Account</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                Destination
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="destination.html"
+                    >Destination Guide</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cancun.html">Cancun</a></li>
+                <li>
+                  <a class="dropdown-item" href="cartagena.html">Cartagena</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="puntacana.html">Punta Cana</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/destination.jpg"
+            alt="destination"
+            class="d-block w-100"
+            alt="Destination"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h1 class="destinations">Destinations</h1>
+        <p>Which Countries Are We Considering this Year?</p>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/cancun.png"
+            class="card-img-top"
+            alt="cancun"
+            height="250"
+            width="250"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cancun $850</h5>
+            <p class="card-text">
+              With its gorgeous turquoise seas, powdery white-sand beaches, and
+              vibrant coral reefs, it's no surprise that Cancun is one of
+              Mexico's most popular resort
+            </p>
+            <a href="cancun.html" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/cartagena.png"
+            class="card-img-top"
+            alt="Colombia"
+            height="250"
+            width="250"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cartagena $600</h5>
+            <p class="card-text">
+              Cartagena brings together the charm of colonial architecture, the
+              excitement of a vivid night life & fascinating cultural festivals
+              for the best vacation.
+            </p>
+            <a href="cartagena.html" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/DR.png"
+            class="card-img-top"
+            alt="Dominican Republic"
+            height="250"
+            width="250"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Punta Cana $950</h5>
+            <p class="card-text">
+              Blessed with one of the Caribbean regions longest white sand
+              coastlines–a whopping 48 kilometers (30 miles), punctuated with
+              sky-reaching coconut palms–Punta Cana is the land of rest and
+              relaxation by the sea.
+            </p>
+            <a href="puntacana.html" class="btn btn-primary">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
