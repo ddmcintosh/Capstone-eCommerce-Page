@@ -69,3 +69,5 @@ $ npm start
 In order to collaborate with my project you can do so on github.
 
 ## FAQS
+
+<b>The carousel will be different heights.</b>
